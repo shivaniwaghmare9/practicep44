@@ -3,14 +3,15 @@
     console.log(ans.replace(/JavaScript/gi, "Programming"))
 }*/
 
-function ram() {
+ let ram=()=>{
     let change= document.querySelector("#btn")
+    let change1= document.querySelector("#new")
     if(change.style.display==='none'){
       change.style.display='block';
-       change.textContent='hide';
+       change1.textContent='Hide';
     }
     else{
        change.style.display='none';
-       change.textContent='show';
+       change1.textContent='Show';
     }
 }

@@ -27,7 +27,7 @@ function btn2(){
           document.body.style.backgroundColor="white"
          }*/
 
-         function shiv(){
+        let shiv=()=>{
           let change= document.querySelector("#box")
          if(change.style.color==='black'){
           (change.style.color='white')
