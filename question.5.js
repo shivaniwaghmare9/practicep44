@@ -7,10 +7,10 @@ function ram() {
     let change= document.querySelector("#btn")
     if(change.style.display==='none'){
       change.style.display='block';
-       change.innerHTML.style.text='show';
+       change.textContent='hide';
     }
     else{
        change.style.display='none';
-       change.style.text='hide';
+       change.textContent='show';
     }
 }

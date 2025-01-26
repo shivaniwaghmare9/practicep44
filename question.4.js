@@ -29,13 +29,13 @@ function btn2(){
 
          function shiv(){
           let change= document.querySelector("#box")
-         if(change.style.color='white'){
-        
+         if(change.style.color==='black'){
+          (change.style.color='white')
           document.body.style.backgroundColor='black';
        }
        else {
           
-          (change.style.color='black')
+          (change.style.color='black');
           document.body.style.backgroundColor='white';
        }
      }
