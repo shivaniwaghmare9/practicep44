@@ -8,10 +8,10 @@
     let change1= document.querySelector("#new")
     if(change.style.display==='none'){
       change.style.display='block';
-       change1.textContent='Hide';
+       change1.innerHTML='Hide';
     }
     else{
        change.style.display='none';
-       change1.textContent='Show';
+       change1.innerHTML='Show';
     }
 }
