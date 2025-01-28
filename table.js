@@ -33,11 +33,11 @@ let show1=document.querySelector("#show")
     show1.innerHTML+=
     `
     <tr id="element">
-    <th id="name">${e.name}</th>
-    <th id="age">${e.age}</th>
-    <th id="city">${e.city}</th>
-    <th id="crs">${e.course}</th>
-    <th id="uni">${e.univercity}</th>
+    <td id="name">${e.name}</td>
+    <td id="age">${e.age}</td>
+    <td id="city">${e.city}</td>
+    <td id="crs">${e.course}</td>
+    <td id="uni">${e.univercity}</td>
     </tr>
 
     `
