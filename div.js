@@ -23,7 +23,7 @@ let tbl=[
         age:23,
         city:"Bhopal",
         course:"Physics",
-        univercity:"RGBP"
+        univercity:"RGPV"
     }
 
 ]

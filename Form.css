@@ -1,0 +1,26 @@
+
+body{
+   
+    background-image: url("alpinejs.png");
+    color: rgb(235, 232, 231);
+    
+}
+body h1{
+    color: black;
+}
+#form input{
+    block-size: 20px;
+    
+}
+#form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#form #inp{
+ background-color: rgb(104, 172, 227);
+ block-size: 30px;
+  color: black;
+  border-radius: 100px;
+  font-size: x-large;
+  font-family: fantasy;
+}
+
