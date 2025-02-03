@@ -7,41 +7,44 @@
     <link rel="stylesheet" href="Form.css">
 </head>
 <body>
-    <h1>FORM VALIDATION TASK</h1>
+      <center> <h1>FORM VALIDATION TASK</h1></center>
     
-        <form id="form">
+        <form id="form" align="center">
             <p id="errname"></p>
-            Enter First Name:&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="Firstname"id="name"><br><br>
+            Enter First Name: &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" placeholder="Firstname"id="name"><br>
             <p id="errlast"></p>
-            Enter Last Name: &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  placeholder="Lastname" id="last"><br><br>
+            Enter Last Name: &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  placeholder="Lastname" id="last"><br>
             <p id="errnumber"></p>
-            Enter Contact-Number: &nbsp;&nbsp;<input type="text"  placeholder="Contact-Number" id="number"><br><br>
+            Enter Contact-Number: &nbsp;&nbsp;<input type="text"  placeholder="Contact-Number" id="number"><br>
             <p id="erremail"></p>
-            Enter Email-Id: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  placeholder="Email-Id" id="email"><br><br>
+            Enter Email-Id: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"  placeholder="Email-Id" id="email"><br>
             <p id="errpass"></p>
-            Enter Password :&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"  placeholder="Password"id="pass"><br><br>
+            Enter Password :&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"  placeholder="Password"id="pass"><br>
             <p id="errcpass"></p>
-            Enter Confirm-Password: <input type="text"  placeholder="Confirm-Password" id="confirm"><br><br>
+            Enter Confirm-Password: <input type="text"  placeholder="Confirm-Password" id="confirm"><br>
             <p id="errdob"></p>
-            Enter DOB:  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  placeholder="DOB" id="dob"><br><br>
+            Enter DOB:  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date"  placeholder="DOB" id="dob"><br>
             <p id="errgen"></p>
-            Gender: <input type="radio" id="gen">Male <input type="radio"  id="gen">Female<br><br>
+            Gender: <input type="radio" name="gender" id="gen">Male <input type="radio" name="gender"  id="gen">Female<br>
             <p id="erroption"></p>
             Courses:
             <select id="option">
+               <option>-----Select------</option>
                <option>HTML</option>
                <option>PYTHON</option>
                <option>JAVA</option>
                <option>MERN</option>
                <option>DATA SCIENCE</option>
-            </select><br><br>
+            </select><br>
             <p id="errbrn"></p>
             Branch: <input type="checkbox" id="brn">Mp Nagar<br> &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="checkbox" id="brn">Indrapuri<br> <br>
+            Address: <textarea name="address"></textarea><br><br>
 
             <input type="submit" value="Login" onclick="return sub()" id="inp">
             
         </form>
+    
     
 
 

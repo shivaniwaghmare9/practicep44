@@ -25,11 +25,17 @@ let sub=()=>{
    let errbrn= document.querySelector("#errbrn")
 
    if(inpname==""){
+      let nameinput=document.querySelector("#name")
+      nameinput.style.border="1px solid red"
+      nameinput.placeholder=" Enter The Name"
+      nameinput.style.color="red"
       errname.innerHTML="Please Enter The Name"
       errname.style.color="red"
+      
       return false;
   }
   if(inplast==""){
+      errname.innerHTML=""
    errlast.innerHTML="Please Enter The Last Name"
    errlast.style.color="red"
    return false;
@@ -76,11 +82,15 @@ if(inpbrn==""){
 }
 
 if(inppass!==inpcpass){
+  
    errcpass.innerHTML="password does not match please enter the correct password"
        errcpass.style.color="brown"
+       document.querySelector("#confirm").value=""
+       document.querySelector("#confirm").focus()
        
        return false;
 }
+
 else if(isNaN(inpnum)){
    errnum.innerHTML="please enter only number"
    errnum.style.color="red"
