@@ -1,15 +1,38 @@
 
 body{
    
- background-image: url("ombre-blue.avif"); 
-    background-color: gray;
-    color: rgba(10, 1, 1, 0.959);
+    background: linear-gradient(to bottom,#0c4c9f,#326591,#010c61);
+      height: 100%;
+    color: rgba(17, 1, 1, 0.717);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#chek{
+    
+    background: rgb(19, 85, 161);
+    width: 400px;
+    height: 100%;
+    background-image: url("download.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 5px 20px 50px #6971ac;
+    font-size: large
+    
     
 }
 
 #form input{
-    block-size: 20px;
+ 
+    border-radius: 5px;
+    background: #1d2c97;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    
     
 }
 #form{
@@ -27,5 +50,7 @@ body{
   border-radius: 100px;
   font-size: x-large;
   font-family: fantasy;
+  margin-bottom: 20px;
+ 
 }
 
