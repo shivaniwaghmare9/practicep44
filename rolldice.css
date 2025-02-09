@@ -9,32 +9,37 @@ body{
 #box1{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  background-color: cadetblue;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    opacity: 0;
- }
- #box1 div{
-    width: 60px;
-    height: 60px;
-    border: 1px solid lightcoral;
-    border-radius: 50px;
-    background-color: darkred;
-    box-shadow: 5px 10px 15px rgb(143, 76, 88), -5px -10px 15px rgb(129, 70, 73);
- }
- #box2{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
    background-color: cadetblue;
+    position: absolute;
+    box-shadow: 5px 10px 15px rgb(77, 96, 96), -5px -10px 15px rgb(76, 102, 102);
+    border-radius: 10px;
+    top: 20%;
+    left: 40%;
+    opacity: 0;
+    border-radius: 10px;
+ }
+ #box1 div{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(15, 3, 3);
+    border-radius: 50px;
+    background-color: darkred;
+    box-shadow: 5px 5px 10px rgb(22, 44, 49), -5px -5px 10px rgb(21, 37, 51);
+ }
+ #box2{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: cadetblue;
+   box-shadow: 5px 10px 15px rgb(78, 101, 105), -5px -10px 15px rgb(77, 89, 100);
+    border-radius: 10px;
     position: absolute;
     top: 20%;
     left: 40%;
@@ -44,18 +49,21 @@ body{
  #box2 div{
     width: 60px;
     height: 60px;
-    border: 1px solid lightcoral;
+    border: 2px solid rgb(20, 6, 6);
     border-radius: 50px;
     background-color: darkred;
+    box-shadow: 5px 5px 10px rgb(28, 54, 59), -5px -5px 10px rgb(26, 43, 58);
  }
  #box3{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
+    box-shadow: 5px 10px 15px rgb(77, 94, 97), -5px -10px 15px rgb(75, 85, 94);
+    border-radius: 10px;
    background-color: cadetblue;
     position: absolute;
     top: 20%;
@@ -65,18 +73,21 @@ body{
  #box3 div{
     width: 60px;
     height: 60px;
-    border: 1px solid lightcoral;
+    border: 2px solid rgb(26, 12, 12);
     border-radius: 50px;
     background-color: darkred;
+    box-shadow: 5px 5px 10px rgb(29, 51, 56), -5px -5px 10px rgb(35, 56, 76);
  }
 #box4{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: auto,auto,;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 10px 15px rgb(77, 91, 94), -5px -10px 15px rgb(77, 87, 96);
+    border-radius: 10px;
     gap: 15%;
     background-color: cadetblue;
     position: absolute;
@@ -87,18 +98,21 @@ body{
  #box4 div{
     width: 60px;
     height: 60px;
-    border: 1px solid lightcoral;
+    border: 2px solid rgb(29, 14, 14);
     border-radius: 50px;
     background-color: darkred;
+    box-shadow: 5px 5px 10px rgb(36, 62, 67), -5px -5px 10px rgb(45, 63, 78);
  }
  #box5{
    width: 300px;
    height: 300px;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    display: grid;
    grid-template-columns: auto,auto,auto;
    justify-content: center;
    align-items: center;
+   box-shadow: 5px 10px 15px rgb(74, 87, 90), -5px -10px 15px rgb(70, 79, 86);
+   border-radius: 10px;
    gap: 15%;
    background-color: cadetblue;
    position: absolute;
@@ -109,18 +123,21 @@ body{
 #box5 div{
    width: 60px;
    height: 60px;
-   border: 1px solid lightcoral;
+   border: 2px solid rgb(34, 16, 16);
    border-radius: 50px;
    background-color: darkred;
+   box-shadow: 5px 5px 10px rgb(39, 56, 59), -5px -5px 10px rgb(35, 51, 65);
 }
 #box6{
    width: 300px;
    height: 300px;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    display: grid;
    grid-template-columns: auto,auto,auto;
    justify-content: center;
    align-items: center;
+   box-shadow: 5px 10px 15px rgb(78, 94, 97), -5px -10px 15px rgb(78, 89, 99);
+   border-radius: 10px;
    gap: 15%;
    background-color: cadetblue;
    position: absolute;
@@ -131,9 +148,10 @@ body{
 #box6 div{
    width: 60px;
    height: 60px;
-   border: 1px solid lightcoral;
+   border: 2px solid rgb(26, 14, 14);
    border-radius: 50px;
    background-color: darkred;
+   box-shadow: 5px 5px 10px rgb(30, 45, 49), -5px -5px 10px rgb(35, 47, 57);
 }
 body button{
    background-color: brown;
