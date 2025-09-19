@@ -13,10 +13,7 @@ function or(){
   function img1(){
     let changeimg= document.querySelector("#box");
     changeimg.style.backgroundImage="url('ural-owl.jpg')";
-
-
-    
-   }
+  }
    function img2(){
     let changeimg= document.querySelector("#box");
     changeimg.style.backgroundImage="url('baya-weaver.webp')";
@@ -26,6 +23,7 @@ function or(){
     changeimg.style.backgroundImage="url('flycatcher.webp')";
    }
    function img4(){
+    
     let changeimg= document.querySelector("#box");
     changeimg.style.backgroundImage="none";
 
